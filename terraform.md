@@ -25,16 +25,15 @@
 - manage - business commitments, ops maturity
 - secure - 
 
-5. Change in developer workflow
+5. Change in developer workflow w.r.t terraform
 - infrastructure team - focus on building reusable modules, landing zone capabilities
 - application team - focus on live infrastructure using those modules and deploying <--- we are here
 
-Application team focus
-a. live code should always be in sync with what is deployed.
-b. run code in sandbox and read terraform plan document before deploying
-c. add tests for your live infrastructure changes
+# Focus for Application team
+- live code should always be in sync with what is deployed.
+-  run code in sandbox and read terraform plan document before deploying
+-  add tests for your live infrastructure changes
 
-
-References: 
+# References 
 * https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973
 * https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/resources/tools-templates
